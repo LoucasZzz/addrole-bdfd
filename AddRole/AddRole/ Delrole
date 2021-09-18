@@ -1,0 +1,27 @@
+Add role
+-----
+$nomention
+$color[2883b6]
+$onlyPerms[manageroles;❌Tu a pas la permission]
+$argsCheck[>2;❌T' @user @role]
+$userInfo[
+$allowMention
+$giveRole[$mentioned[<];$mentionedRoles[<]]
+$title[__**ADD ROLE**__]
+$color[ce1abd]
+📊 Le membre <@$mentioned[<]> a le role  <@&$mentionedRoles[<]> !]
+$footer[By >Loucas#0003]
+-------------------------------------------------------------------------
+Dell Role
+---------
+$nomention
+$takeRole[ $mentionedRoles[>]]
+$title[__**DELL ROLE**__]
+$argsCheck[>2;Try 'removerole @user @role]
+$userInfo[
+Tu a retiré le role a {username}#{discriminator}
+$onlyPerms[manageroles;❌Tu na pas la  permission]
+Roles
+<@&$mentionedRoles[<]>]
+$color[ce1abd]
+$footer[By: >Loucas#0003]
